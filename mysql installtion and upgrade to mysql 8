@@ -1,0 +1,8 @@
+sudo apt install mysql-server
+sudo mysql_secure_installation
+wget https://repo.mysql.com//mysql-apt-config_0.8.14-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.14-1_all.deb
+sudo apt-get update
+sudo apt-get install mysql-server
+sudo apt policy mysql-server
+sudo systemctl restart mysql.service
